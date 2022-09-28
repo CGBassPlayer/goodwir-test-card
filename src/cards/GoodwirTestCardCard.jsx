@@ -1,6 +1,6 @@
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import { Typography, TextLink } from '@ellucian/react-design-system/core';
+import { Typography } from '@ellucian/react-design-system/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -22,18 +22,7 @@ const GoodwirTestCardCard = (props) => {
         Hello SICAS
       </Typography>
       <Typography>
-        <ul>
-        <li>
-            <TextLink href="/">
-              Home
-            </TextLink>
-          </li>
-          <li>
-            <TextLink href="/page1">
-              Page 1
-            </TextLink>
-          </li>
-        </ul>
+        This is a test card
       </Typography>
     </div>
   );
