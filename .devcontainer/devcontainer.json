@@ -1,0 +1,20 @@
+{
+  "name": "goodwir-experience-extension",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
+  "postCreateCommand": "bash -i .devcontainer/install.sh",
+  "forwardPorts": [
+    8082
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        "msjsdiag.vscode-react-native",
+        "dbaeumer.vscode-eslint",
+        "formulahendry.auto-rename-tag",
+        "planbcoding.vscode-react-refactor",
+        "seatonjiang.gitmoji-vscode"
+      ]
+    }
+  }
+}
