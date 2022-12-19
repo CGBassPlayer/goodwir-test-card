@@ -2,9 +2,11 @@
 name: Lint Codebase
 
 on:
+  push:
   pull_request:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
     lint:
