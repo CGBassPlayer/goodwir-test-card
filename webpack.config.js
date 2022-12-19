@@ -1,7 +1,6 @@
 require('dotenv').config();
 const packageJson = require('./package.json');
 const extensionConfig = require('./extension.js');
- 
 const { webpackConfigBuilder } = require('@ellucian/experience-extension');
 
 module.exports = async (env, options) => {
