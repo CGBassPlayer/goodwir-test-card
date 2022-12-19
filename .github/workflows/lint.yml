@@ -1,0 +1,14 @@
+---
+name: Lint Codebase
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+    lint:
+    name: Lint Code Base
+    uses: CGBassPlayer/sicas-workflows/.github/workflows/lint.yml@main
+    with:
+      default_branch: master
