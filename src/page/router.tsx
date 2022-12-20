@@ -6,7 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from "./Home";
-import Test from "./Test.tsx";
+import Test from "./Test";
 
 // for more information on react router: https://v5.reactrouter.com/web/guides/quick-start
 
