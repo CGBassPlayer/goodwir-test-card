@@ -4,7 +4,7 @@ interface TestButtonProps {
   emoji: string
 }
 
-const TestButton = ({ emoji }: TestButtonProps) => {
+const SicasTestButton = ({ emoji }: TestButtonProps) => {
   return (
     <div>
       <button
@@ -15,4 +15,4 @@ const TestButton = ({ emoji }: TestButtonProps) => {
   )
 }
 
-export default TestButton;
+export default SicasTestButton;

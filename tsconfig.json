@@ -1,10 +1,17 @@
 {
   "include": [
-      "src/*"
+      "./src/"
   ],
   "compilerOptions": {
       "target": "es5",
       "jsx": "react",
-      "allowSyntheticDefaultImports": true
+      "allowSyntheticDefaultImports": true,
+      "allowJs": true,
+      "outDir": "./dist/",
+      "rootDir": "./src",
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true
   }
 }

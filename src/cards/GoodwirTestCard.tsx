@@ -4,7 +4,7 @@ import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
 import { Typography } from '@ellucian/react-design-system/core';
 
-import { SicasDropdown, TestButton } from "../components"
+import { TestButton } from "../components"
 
   const styles = () => ({
   card: {
@@ -23,7 +23,6 @@ const GoodwirTestCardCard = (props) => {
       <Typography variant="h2">
         Hello SICAS
       </Typography>
-      <SicasDropdown />
       <TestButton emoji='🔥'/>
     </div>
   );
