@@ -13,6 +13,10 @@
         "dbaeumer.vscode-eslint",
         "formulahendry.auto-rename-tag",
         "planbcoding.vscode-react-refactor",
+        "GraphQL.vscode-graphql",
+        "graphql.vscode-graphql-syntax",
+        "esbenp.prettier-vscode",
+        "oderwat.indent-rainbow",
         "seatonjiang.gitmoji-vscode"
       ]
     }
