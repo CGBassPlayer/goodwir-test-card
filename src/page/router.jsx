@@ -6,7 +6,6 @@ import {
   Route
 } from "react-router-dom";
 import Home from "./Home";
-import Test from "./Test";
 
 // for more information on react router: https://v5.reactrouter.com/web/guides/quick-start
 
@@ -18,7 +17,6 @@ const RouterPage = (props) => {
           <Home {...props} />
         </Route>
         <Route>
-          <Test {...props} />
         </Route>
       </Switch>
     </Router>
