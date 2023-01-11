@@ -17,17 +17,12 @@
     "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/6.6.0/umd/path_design_system_icons.tgz",
     "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/5.11.0/ellucian-experience-extension-5.11.0.tgz",
     "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.6.0/umd/path_design_system.tgz",
-    "@types/jest": "^29.2.4",
-    "@types/node": "^18.11.17",
-    "@types/react": "^17.0.52",
-    "@types/react-dom": "^18.0.9",
     "moment": "2.29.4",
     "prop-types": "15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-intl": "5.12.5",
-    "react-router-dom": "5.2.0",
-    "typescript": "^4.9.4"
+    "react-router-dom": "5.2.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.17.0",
