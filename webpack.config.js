@@ -17,33 +17,8 @@ module.exports = async (env, options) => {
         uploadToken: process.env.EXPERIENCE_EXTENSION_UPLOAD_TOKEN,
         liveReload: env.liveReload || false,
         port: process.env.PORT || 8082
-    }),
-    
-    entry: './src/index.ts',
-    module: {
-        rules: [
-            {
-                test: /\.tsx?$/,
-                use: 'ts-loader',
-                exclude: './node_modules/*'
-            }
-        ]
-    },
-    resolve: {
-        extensions: ['.tsx', '.ts', '.js']
-    },
-    output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
-    }
-
-//     // For advanced scenarios, dynamically modify webpackConfig here.
+    })
+    // For advanced scenarios, dynamically modify webpackConfig here.
 
     return webpackConfig;
-};
-
-const path = require('path');
-
-module.exports = {
-    
 };
