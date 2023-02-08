@@ -12,6 +12,7 @@ module.exports = {
             "excludeClickSelectors": ['a']
         }
     }],
+    "queries": {},
     "page": {
         "source": "./src/page/router.jsx"
     }

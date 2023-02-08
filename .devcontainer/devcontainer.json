@@ -1,7 +1,7 @@
 {
   "name": "goodwir-experience-extension",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
-  "postCreateCommand": "bash -i .devcontainer/install.sh",
+  "postCreateCommand": "bash -i .devcontainer/startup.sh",
   "forwardPorts": [
     8082
   ],
@@ -15,7 +15,6 @@
         "planbcoding.vscode-react-refactor",
         "GraphQL.vscode-graphql",
         "graphql.vscode-graphql-syntax",
-        "esbenp.prettier-vscode",
         "oderwat.indent-rainbow",
         "seatonjiang.gitmoji-vscode"
       ]
