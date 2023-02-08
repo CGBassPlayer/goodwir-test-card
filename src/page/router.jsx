@@ -16,8 +16,6 @@ const RouterPage = (props) => {
         <Route path="/">
           <Home {...props} />
         </Route>
-        <Route>
-        </Route>
       </Switch>
     </Router>
   );

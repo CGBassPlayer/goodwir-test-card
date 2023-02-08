@@ -17,6 +17,7 @@
     "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/6.6.0/umd/path_design_system_icons.tgz",
     "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/5.11.0/ellucian-experience-extension-5.11.0.tgz",
     "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.6.0/umd/path_design_system.tgz",
+    "@heroicons/react": "^2.0.14",
     "moment": "2.29.4",
     "prop-types": "15.7.2",
     "react": "16.9.0",
