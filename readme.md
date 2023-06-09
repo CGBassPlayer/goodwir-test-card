@@ -1,3 +1,7 @@
+## ***NOTE***
+
+I no longer work at SICAS so this repo is archived
+
 # Create Experience Extension
 This module bootstraps your Ellucian Experience Extension development by creating an extension project. This module is primarily used to create your initial project. From this, you would add cards and make modifications. This project should be placed under your source control.
 
